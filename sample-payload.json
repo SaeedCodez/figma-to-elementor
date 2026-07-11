@@ -1,0 +1,509 @@
+{
+  "version": 1,
+  "source": "figma-niikak",
+  "generatedAt": "2026-07-11T00:00:00.000Z",
+  "systemColors": {
+    "primary": "#38add1",
+    "secondary": "#fd797b",
+    "accent": "#feab28",
+    "text": "#273645"
+  },
+  "customColors": [
+    {
+      "name": "primary/50",
+      "hex": "#eff8fb"
+    },
+    {
+      "name": "primary/100",
+      "hex": "#d6eef6"
+    },
+    {
+      "name": "primary/200",
+      "hex": "#addced"
+    },
+    {
+      "name": "primary/300",
+      "hex": "#84cbe4"
+    },
+    {
+      "name": "primary/400",
+      "hex": "#5bb9db"
+    },
+    {
+      "name": "primary/500",
+      "hex": "#38add1"
+    },
+    {
+      "name": "primary/600",
+      "hex": "#2d8ba7"
+    },
+    {
+      "name": "primary/700",
+      "hex": "#22687d"
+    },
+    {
+      "name": "primary/800",
+      "hex": "#164654"
+    },
+    {
+      "name": "primary/900",
+      "hex": "#0b232a"
+    },
+    {
+      "name": "secondary/50",
+      "hex": "#ffefef"
+    },
+    {
+      "name": "secondary/100",
+      "hex": "#ffd6d7"
+    },
+    {
+      "name": "secondary/200",
+      "hex": "#feadaf"
+    },
+    {
+      "name": "secondary/300",
+      "hex": "#fe8587"
+    },
+    {
+      "name": "secondary/400",
+      "hex": "#fd6d70"
+    },
+    {
+      "name": "secondary/500",
+      "hex": "#fd797b"
+    },
+    {
+      "name": "secondary/600",
+      "hex": "#ca6062"
+    },
+    {
+      "name": "secondary/700",
+      "hex": "#98484a"
+    },
+    {
+      "name": "secondary/800",
+      "hex": "#653031"
+    },
+    {
+      "name": "secondary/900",
+      "hex": "#331819"
+    },
+    {
+      "name": "accent/50",
+      "hex": "#fff7e9"
+    },
+    {
+      "name": "accent/100",
+      "hex": "#fee9c0"
+    },
+    {
+      "name": "accent/200",
+      "hex": "#fed497"
+    },
+    {
+      "name": "accent/300",
+      "hex": "#feca6f"
+    },
+    {
+      "name": "accent/400",
+      "hex": "#febf47"
+    },
+    {
+      "name": "accent/500",
+      "hex": "#feab28"
+    },
+    {
+      "name": "accent/600",
+      "hex": "#cb8920"
+    },
+    {
+      "name": "accent/700",
+      "hex": "#986718"
+    },
+    {
+      "name": "accent/800",
+      "hex": "#664410"
+    },
+    {
+      "name": "accent/900",
+      "hex": "#332208"
+    },
+    {
+      "name": "ink/50",
+      "hex": "#e9ebed"
+    },
+    {
+      "name": "ink/100",
+      "hex": "#c8cdd2"
+    },
+    {
+      "name": "ink/200",
+      "hex": "#a6aeb6"
+    },
+    {
+      "name": "ink/300",
+      "hex": "#84929b"
+    },
+    {
+      "name": "ink/400",
+      "hex": "#62757f"
+    },
+    {
+      "name": "ink/500",
+      "hex": "#4a5c66"
+    },
+    {
+      "name": "ink/600",
+      "hex": "#3b4a52"
+    },
+    {
+      "name": "ink/700",
+      "hex": "#2f3b41"
+    },
+    {
+      "name": "ink/800",
+      "hex": "#273645"
+    },
+    {
+      "name": "ink/900",
+      "hex": "#1a2530"
+    },
+    {
+      "name": "surface/50",
+      "hex": "#fbfcfd"
+    },
+    {
+      "name": "surface/100",
+      "hex": "#f4f7fa"
+    },
+    {
+      "name": "surface/200",
+      "hex": "#e9eff5"
+    },
+    {
+      "name": "surface/300",
+      "hex": "#dee7f0"
+    },
+    {
+      "name": "surface/400",
+      "hex": "#d3dfeb"
+    },
+    {
+      "name": "surface/500",
+      "hex": "#c8d7e6"
+    },
+    {
+      "name": "surface/600",
+      "hex": "#a0acb8"
+    },
+    {
+      "name": "surface/700",
+      "hex": "#78818a"
+    },
+    {
+      "name": "surface/800",
+      "hex": "#50565c"
+    },
+    {
+      "name": "surface/900",
+      "hex": "#282b2e"
+    },
+    {
+      "name": "black/50",
+      "hex": "#e6e6e6"
+    },
+    {
+      "name": "black/100",
+      "hex": "#cccccc"
+    },
+    {
+      "name": "black/200",
+      "hex": "#999999"
+    },
+    {
+      "name": "black/300",
+      "hex": "#666666"
+    },
+    {
+      "name": "black/400",
+      "hex": "#4d4d4d"
+    },
+    {
+      "name": "black/500",
+      "hex": "#333333"
+    },
+    {
+      "name": "black/600",
+      "hex": "#292929"
+    },
+    {
+      "name": "black/700",
+      "hex": "#1f1f1f"
+    },
+    {
+      "name": "black/800",
+      "hex": "#141414"
+    },
+    {
+      "name": "black/900",
+      "hex": "#0a0a0a"
+    },
+    {
+      "name": "gray/50",
+      "hex": "#f7f7f8"
+    },
+    {
+      "name": "gray/100",
+      "hex": "#ededef"
+    },
+    {
+      "name": "gray/200",
+      "hex": "#d9dadd"
+    },
+    {
+      "name": "gray/300",
+      "hex": "#b8babf"
+    },
+    {
+      "name": "gray/400",
+      "hex": "#9295a0"
+    },
+    {
+      "name": "gray/500",
+      "hex": "#6c6f7a"
+    },
+    {
+      "name": "gray/600",
+      "hex": "#565963"
+    },
+    {
+      "name": "gray/700",
+      "hex": "#41434b"
+    },
+    {
+      "name": "gray/800",
+      "hex": "#2c2d33"
+    },
+    {
+      "name": "gray/900",
+      "hex": "#16171a"
+    },
+    {
+      "name": "green/50",
+      "hex": "#e9f9f0"
+    },
+    {
+      "name": "green/100",
+      "hex": "#c6f0d8"
+    },
+    {
+      "name": "green/200",
+      "hex": "#94e3b6"
+    },
+    {
+      "name": "green/300",
+      "hex": "#63d693"
+    },
+    {
+      "name": "green/400",
+      "hex": "#3ac878"
+    },
+    {
+      "name": "green/500",
+      "hex": "#22b563"
+    },
+    {
+      "name": "green/600",
+      "hex": "#1c9350"
+    },
+    {
+      "name": "green/700",
+      "hex": "#15703d"
+    },
+    {
+      "name": "green/800",
+      "hex": "#0e4d29"
+    },
+    {
+      "name": "green/900",
+      "hex": "#072615"
+    },
+    {
+      "name": "red/50",
+      "hex": "#fdecec"
+    },
+    {
+      "name": "red/100",
+      "hex": "#f9cccc"
+    },
+    {
+      "name": "red/200",
+      "hex": "#f39a9a"
+    },
+    {
+      "name": "red/300",
+      "hex": "#ec6767"
+    },
+    {
+      "name": "red/400",
+      "hex": "#e63535"
+    },
+    {
+      "name": "red/500",
+      "hex": "#dc2626"
+    },
+    {
+      "name": "red/600",
+      "hex": "#b01e1e"
+    },
+    {
+      "name": "red/700",
+      "hex": "#841717"
+    },
+    {
+      "name": "red/800",
+      "hex": "#580f0f"
+    },
+    {
+      "name": "red/900",
+      "hex": "#2c0808"
+    },
+    {
+      "name": "amber/50",
+      "hex": "#fff8ec"
+    },
+    {
+      "name": "amber/100",
+      "hex": "#feeccb"
+    },
+    {
+      "name": "amber/200",
+      "hex": "#fdd897"
+    },
+    {
+      "name": "amber/300",
+      "hex": "#fcc463"
+    },
+    {
+      "name": "amber/400",
+      "hex": "#fbb02f"
+    },
+    {
+      "name": "amber/500",
+      "hex": "#f59e0b"
+    },
+    {
+      "name": "amber/600",
+      "hex": "#c47e09"
+    },
+    {
+      "name": "amber/700",
+      "hex": "#935e07"
+    },
+    {
+      "name": "amber/800",
+      "hex": "#623f04"
+    },
+    {
+      "name": "amber/900",
+      "hex": "#311f02"
+    },
+    {
+      "name": "blue/50",
+      "hex": "#eef4ff"
+    },
+    {
+      "name": "blue/100",
+      "hex": "#d6e4ff"
+    },
+    {
+      "name": "blue/200",
+      "hex": "#adc9ff"
+    },
+    {
+      "name": "blue/300",
+      "hex": "#84adff"
+    },
+    {
+      "name": "blue/400",
+      "hex": "#5b92ff"
+    },
+    {
+      "name": "blue/500",
+      "hex": "#3b76f6"
+    },
+    {
+      "name": "blue/600",
+      "hex": "#2f5ec5"
+    },
+    {
+      "name": "blue/700",
+      "hex": "#234794"
+    },
+    {
+      "name": "blue/800",
+      "hex": "#182f62"
+    },
+    {
+      "name": "blue/900",
+      "hex": "#0c1831"
+    },
+    {
+      "name": "white",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "seed/primary",
+      "hex": "#38add1"
+    },
+    {
+      "name": "seed/secondary",
+      "hex": "#fd797b"
+    },
+    {
+      "name": "seed/accent",
+      "hex": "#feab28"
+    },
+    {
+      "name": "surface/background",
+      "hex": "#f4f7fa"
+    },
+    {
+      "name": "surface/white",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "semantic/black-ink",
+      "hex": "#273645"
+    },
+    {
+      "name": "semantic/white-text",
+      "hex": "#ffffff"
+    }
+  ],
+  "typography": {
+    "titleFamily": "Shazde",
+    "bodyFamily": "IRANYekanX",
+    "weights": {
+      "300": 300,
+      "400": 400,
+      "500": 500,
+      "600": 600,
+      "700": 700,
+      "800": 800,
+      "900": 900
+    },
+    "sizes": {
+      "xs": 12,
+      "sm": 14,
+      "base": 16,
+      "lg": 18,
+      "xl": 20,
+      "2xl": 24,
+      "3xl": 30,
+      "4xl": 36,
+      "5xl": 48
+    }
+  }
+}

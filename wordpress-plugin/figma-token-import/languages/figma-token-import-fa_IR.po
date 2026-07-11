@@ -1,0 +1,144 @@
+# Persian (Iran) translation for the Figma Token Import plugin.
+# This file is distributed under the same license as the plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Figma Token Import 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-12 00:00+0000\n"
+"PO-Revision-Date: 2026-07-12 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Persian (Iran)\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: figma-token-import\n"
+
+#. translators: Plugin name / admin menu + page title.
+msgid "Figma Token Import"
+msgstr "درون‌ریزی توکن‌های فیگما"
+
+#. translators: Plugin description.
+msgid "Import color and typography design tokens exported from the companion Figma plugin into the active Elementor kit. Offline and copy-paste based — paste the JSON, preview it, then confirm to write Global Colors and Global Fonts. No network calls, no REST routes."
+msgstr "رنگ‌ها و توکن‌های تایپوگرافیِ طراحی را که از افزونهٔ همراهِ فیگما خروجی گرفته شده‌اند، در کیت فعال المنتور درون‌ریزی می‌کند. آفلاین و مبتنی بر کپی‑پیست — JSON را جای‌گذاری کنید، پیش‌نمایش بگیرید، سپس برای نوشتن رنگ‌های سراسری و فونت‌های سراسری تأیید کنید. بدون هیچ فراخوانی شبکه و بدون مسیر REST."
+
+msgid "You do not have permission to access this page."
+msgstr "شما اجازهٔ دسترسی به این صفحه را ندارید."
+
+msgid "You do not have permission to perform this action."
+msgstr "شما اجازهٔ انجام این عملیات را ندارید."
+
+msgid "Security check failed. Please reload the page and try again."
+msgstr "بررسی امنیتی ناموفق بود. لطفاً صفحه را دوباره بارگذاری کنید و مجدداً تلاش کنید."
+
+msgid "Elementor is not active. Activate Elementor before importing tokens."
+msgstr "المنتور فعال نیست. پیش از درون‌ریزی توکن‌ها، المنتور را فعال کنید."
+
+msgid "No active Elementor kit was found. Open Elementor → Site Settings once to create a kit, then try again."
+msgstr "هیچ کیت فعالی برای المنتور یافت نشد. یک‌بار المنتور ← تنظیمات سایت را باز کنید تا یک کیت ساخته شود، سپس دوباره تلاش کنید."
+
+msgid "Paste the JSON exported from the Figma plugin, click Preview to review the colors and fonts, then Confirm & Import to write them into the active Elementor kit. Nothing is saved until you confirm."
+msgstr "JSON خروجی‌گرفته‌شده از افزونهٔ فیگما را جای‌گذاری کنید، روی «پیش‌نمایش» کلیک کنید تا رنگ‌ها و فونت‌ها را بررسی کنید، سپس «تأیید و درون‌ریزی» را بزنید تا در کیت فعال المنتور نوشته شوند. تا زمانی که تأیید نکنید چیزی ذخیره نمی‌شود."
+
+msgid "Paste the JSON exported from the Figma plugin"
+msgstr "JSON خروجی‌گرفته‌شده از افزونهٔ فیگما را جای‌گذاری کنید"
+
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+msgid "Confirm & Import"
+msgstr "تأیید و درون‌ریزی"
+
+msgid "Cancel"
+msgstr "انصراف"
+
+msgid "Note about fonts:"
+msgstr "نکته دربارهٔ فونت‌ها:"
+
+msgid "Only the font family names are written into Elementor. Custom Persian fonts such as IRANYekanX or Shazde are not Google Fonts — upload the actual font files separately (Elementor → Custom Fonts, or a font plugin) so the site can display them."
+msgstr "فقط نامِ خانوادهٔ فونت‌ها در المنتور نوشته می‌شود. فونت‌های فارسی سفارشی مانند IRANYekanX یا Shazde جزو فونت‌های گوگل نیستند — فایل‌های فونت را جداگانه بارگذاری کنید (المنتور ← فونت‌های سفارشی، یا یک افزونهٔ فونت) تا سایت بتواند آن‌ها را نمایش دهد."
+
+msgid "This importer targets the Elementor Classic / Editor V3 kit structure (system_colors, custom_colors, system_typography). If the Editor V4 (atomic) experiment is enabled, the kit structure differs and the results may not appear as expected."
+msgstr "این درون‌ریز برای ساختار کیت کلاسیک / ویرایشگر V3 المنتور طراحی شده است (system_colors، custom_colors، system_typography). اگر آزمایشِ ویرایشگر V4 (اتمی) فعال باشد، ساختار کیت متفاوت است و ممکن است نتایج آن‌گونه که انتظار می‌رود نمایش داده نشوند."
+
+msgid "Elementor is not active. Nothing was imported."
+msgstr "المنتور فعال نیست. چیزی درون‌ریزی نشد."
+
+msgid "No active Elementor kit was found. Nothing was imported."
+msgstr "هیچ کیت فعالی برای المنتور یافت نشد. چیزی درون‌ریزی نشد."
+
+msgid "The pasted JSON could not be parsed. Nothing was imported."
+msgstr "JSON جای‌گذاری‌شده قابل تجزیه نبود. چیزی درون‌ریزی نشد."
+
+#. translators: 1: system color count, 2: custom color count, 3: typography slot count, 4: kit ID.
+msgid "Import complete: %1$d system colors, %2$d custom colors, and %3$d typography slots written to Elementor kit #%4$d. Elementor CSS was rebuilt."
+msgstr "درون‌ریزی کامل شد: %1$d رنگ سیستمی، %2$d رنگ سفارشی و %3$d جایگاه تایپوگرافی در کیت المنتور #%4$d نوشته شد. CSS المنتور بازسازی شد."
+
+msgid "Invalid JSON — could not parse:"
+msgstr "JSON نامعتبر — قابل تجزیه نبود:"
+
+msgid "The JSON must be an object matching the Figma export contract."
+msgstr "JSON باید یک شیء مطابق با قرارداد خروجیِ فیگما باشد."
+
+msgid "System colors"
+msgstr "رنگ‌های سیستمی"
+
+msgid "Custom colors"
+msgstr "رنگ‌های سفارشی"
+
+#. translators: %d is the number of custom colors.
+msgid "%d colors"
+msgstr "%d رنگ"
+
+msgid "Typography"
+msgstr "تایپوگرافی"
+
+msgid "Primary"
+msgstr "اصلی"
+
+msgid "Secondary"
+msgstr "ثانویه"
+
+msgid "Text"
+msgstr "متن"
+
+msgid "Accent"
+msgstr "تأکیدی"
+
+#. translators: Keep the <code> tags around the font names.
+msgid "You can correct the family names below before importing (for example the body variable says <code>IRANYekanX</code> but text styles may use <code>IRANYekanXFaNum</code>)."
+msgstr "می‌توانید پیش از درون‌ریزی، نام خانواده‌های فونت را در پایین اصلاح کنید (برای مثال متغیرِ بدنه <code>IRANYekanX</code> است اما استایل‌های متن ممکن است از <code>IRANYekanXFaNum</code> استفاده کنند)."
+
+msgid "Title family"
+msgstr "خانوادهٔ عنوان"
+
+msgid "Body family"
+msgstr "خانوادهٔ بدنه"
+
+#. translators: Font sample line; use letters + digits that show off the title font.
+msgid "The quick brown fox — 0123456789"
+msgstr "روباه قهوه‌ای چابک از روی سگ تنبل پرید — ۰۱۲۳۴۵۶۷۸۹"
+
+#. translators: Body font sample paragraph.
+msgid "The quick brown fox jumps over the lazy dog. یک نمونه متن فارسی برای پیش‌نمایش قلم بدنه."
+msgstr "روباه قهوه‌ای چابک از روی سگ تنبل می‌پرد. این یک نمونهٔ متن برای پیش‌نمایش قلم بدنه است."
+
+msgid "How the four Elementor typography slots will be filled"
+msgstr "چهار جایگاه تایپوگرافی المنتور چگونه پُر می‌شوند"
+
+msgid "Slot"
+msgstr "جایگاه"
+
+msgid "Family"
+msgstr "خانواده"
+
+msgid "Weight"
+msgstr "وزن"
+
+#. translators: 1: system color count, 2: custom color count, 3: typography slot count, 4: kit ID.
+msgid "This will write %1$d system colors, %2$d custom colors, and %3$d typography slots to Elementor kit #%4$d."
+msgstr "این کار %1$d رنگ سیستمی، %2$d رنگ سفارشی و %3$d جایگاه تایپوگرافی را در کیت المنتور #%4$d خواهد نوشت."
+
+msgid "Elementor or its active kit is unavailable, so importing is disabled. The preview above is still accurate."
+msgstr "المنتور یا کیت فعال آن در دسترس نیست، بنابراین درون‌ریزی غیرفعال است. پیش‌نمایش بالا همچنان دقیق است."

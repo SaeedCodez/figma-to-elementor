@@ -1,0 +1,144 @@
+# Figma Token Import - translation template.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Figma Token Import plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Figma Token Import 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-12 00:00+0000\n"
+"PO-Revision-Date: 2026-07-12 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: figma-token-import\n"
+
+#. translators: Plugin name / admin menu + page title.
+msgid "Figma Token Import"
+msgstr ""
+
+#. translators: Plugin description.
+msgid "Import color and typography design tokens exported from the companion Figma plugin into the active Elementor kit. Offline and copy-paste based — paste the JSON, preview it, then confirm to write Global Colors and Global Fonts. No network calls, no REST routes."
+msgstr ""
+
+msgid "You do not have permission to access this page."
+msgstr ""
+
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+msgid "Security check failed. Please reload the page and try again."
+msgstr ""
+
+msgid "Elementor is not active. Activate Elementor before importing tokens."
+msgstr ""
+
+msgid "No active Elementor kit was found. Open Elementor → Site Settings once to create a kit, then try again."
+msgstr ""
+
+msgid "Paste the JSON exported from the Figma plugin, click Preview to review the colors and fonts, then Confirm & Import to write them into the active Elementor kit. Nothing is saved until you confirm."
+msgstr ""
+
+msgid "Paste the JSON exported from the Figma plugin"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Confirm & Import"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Note about fonts:"
+msgstr ""
+
+msgid "Only the font family names are written into Elementor. Custom Persian fonts such as IRANYekanX or Shazde are not Google Fonts — upload the actual font files separately (Elementor → Custom Fonts, or a font plugin) so the site can display them."
+msgstr ""
+
+msgid "This importer targets the Elementor Classic / Editor V3 kit structure (system_colors, custom_colors, system_typography). If the Editor V4 (atomic) experiment is enabled, the kit structure differs and the results may not appear as expected."
+msgstr ""
+
+msgid "Elementor is not active. Nothing was imported."
+msgstr ""
+
+msgid "No active Elementor kit was found. Nothing was imported."
+msgstr ""
+
+msgid "The pasted JSON could not be parsed. Nothing was imported."
+msgstr ""
+
+#. translators: 1: system color count, 2: custom color count, 3: typography slot count, 4: kit ID.
+msgid "Import complete: %1$d system colors, %2$d custom colors, and %3$d typography slots written to Elementor kit #%4$d. Elementor CSS was rebuilt."
+msgstr ""
+
+msgid "Invalid JSON — could not parse:"
+msgstr ""
+
+msgid "The JSON must be an object matching the Figma export contract."
+msgstr ""
+
+msgid "System colors"
+msgstr ""
+
+msgid "Custom colors"
+msgstr ""
+
+#. translators: %d is the number of custom colors.
+msgid "%d colors"
+msgstr ""
+
+msgid "Typography"
+msgstr ""
+
+msgid "Primary"
+msgstr ""
+
+msgid "Secondary"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Accent"
+msgstr ""
+
+#. translators: Keep the <code> tags around the font names.
+msgid "You can correct the family names below before importing (for example the body variable says <code>IRANYekanX</code> but text styles may use <code>IRANYekanXFaNum</code>)."
+msgstr ""
+
+msgid "Title family"
+msgstr ""
+
+msgid "Body family"
+msgstr ""
+
+#. translators: Font sample line; use letters + digits that show off the title font.
+msgid "The quick brown fox — 0123456789"
+msgstr ""
+
+#. translators: Body font sample paragraph.
+msgid "The quick brown fox jumps over the lazy dog. یک نمونه متن فارسی برای پیش‌نمایش قلم بدنه."
+msgstr ""
+
+msgid "How the four Elementor typography slots will be filled"
+msgstr ""
+
+msgid "Slot"
+msgstr ""
+
+msgid "Family"
+msgstr ""
+
+msgid "Weight"
+msgstr ""
+
+#. translators: 1: system color count, 2: custom color count, 3: typography slot count, 4: kit ID.
+msgid "This will write %1$d system colors, %2$d custom colors, and %3$d typography slots to Elementor kit #%4$d."
+msgstr ""
+
+msgid "Elementor or its active kit is unavailable, so importing is disabled. The preview above is still accurate."
+msgstr ""
